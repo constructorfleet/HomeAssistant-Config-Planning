@@ -1,0 +1,6 @@
+homeassistant: !include core.yaml
+
+google: !include google.yaml
+wunderlist: !include wunderlist.yaml
+# TODO: Package tracking sensors
+
