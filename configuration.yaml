@@ -1,5 +1,10 @@
 homeassistant: !include core.yaml
 
+http:
+  server_port: !secret planning_server_port
+
+frontend:
+
 google: !include google.yaml
 wunderlist: !include wunderlist.yaml
 # TODO: Package tracking sensors
