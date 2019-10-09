@@ -6,6 +6,8 @@ homeassistant:
   time_zone: !secret home_timezone
   name: Planning
 
+http:
+
 frontend:
 
 google: !include google.yaml
