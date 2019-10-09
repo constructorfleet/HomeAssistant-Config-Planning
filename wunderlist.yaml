@@ -1,2 +1,2 @@
 client_id: !secret wunderlist_client_id
-access_token: !secret_wunderlist_access_token
+access_token: !secret wunderlist_access_token
