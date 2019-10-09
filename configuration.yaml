@@ -1,4 +1,10 @@
-homeassistant: !include core.yaml
+homeassistant:
+  latitude: !secret home_latitude
+  longitude: !secret home_longitude
+  elevation: !secret home_elevation
+  unit_system: imperial
+  time_zone: !secret home_timezone
+  name: Planning
 
 http:
   server_port: !secret planning_server_port
@@ -8,4 +14,3 @@ frontend:
 google: !include google.yaml
 wunderlist: !include wunderlist.yaml
 # TODO: Package tracking sensors
-
