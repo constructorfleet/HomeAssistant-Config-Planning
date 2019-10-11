@@ -10,6 +10,8 @@ http:
 
 frontend:
 
+view_event:
+
 google: !include google.yaml
 wunderlist: !include wunderlist.yaml
 # TODO: Package tracking sensors
