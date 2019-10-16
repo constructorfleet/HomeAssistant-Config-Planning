@@ -6,10 +6,12 @@ homeassistant:
   time_zone: !secret home_timezone
   name: Planning
   auth_providers:
-    - type: homeassistant
     - type: trusted_networks
       trusted_networks:
         - 172.19.0.0/16
+        - 10.0.12.0/24
+      allow_bypass_login: true
+    - type: homeassistant
 
 http:
 
