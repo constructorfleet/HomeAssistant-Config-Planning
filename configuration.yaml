@@ -16,6 +16,8 @@ http:
 
 frontend:
 
+config:
+
 view_event:
 
 google: !include google.yaml
