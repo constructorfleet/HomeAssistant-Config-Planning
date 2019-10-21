@@ -16,10 +16,7 @@ homeassistant:
 
 view_event:
   components:
-    - camera
-    - media_player
-    - device_tracker
-    - person
+    - calendar
 
 http:
   base_url: https://automation.prettybaked.com
