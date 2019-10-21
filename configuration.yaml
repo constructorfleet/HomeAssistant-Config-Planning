@@ -15,8 +15,10 @@ homeassistant:
     - type: homeassistant
 
 view_event:
+  name: planning
   components:
     - calendar
+    - wunderlist
 
 http:
   base_url: https://automation.prettybaked.com
