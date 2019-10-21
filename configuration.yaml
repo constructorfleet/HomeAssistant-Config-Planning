@@ -15,7 +15,7 @@ homeassistant:
     - type: homeassistant
 
 view_event:
-  name: planning
+  instance_name: planning
   components:
     - calendar
     - wunderlist
