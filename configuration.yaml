@@ -14,11 +14,11 @@ homeassistant:
       allow_bypass_login: true
     - type: homeassistant
 
-view_event:
-  name: planning
-  components:
-    - calendar
-    - wunderlist
+# view_event:
+#   name: planning
+#   components:
+#     - calendar
+#     - wunderlist
 
 http:
   base_url: https://automation.prettybaked.com
