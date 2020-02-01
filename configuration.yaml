@@ -31,3 +31,6 @@ config:
 google: !include google.yaml
 wunderlist: !include wunderlist.yaml
 # TODO: Package tracking sensors
+
+mqtt: !include mqtt.yaml
+mqtteventstream: !include eventstream.yaml
