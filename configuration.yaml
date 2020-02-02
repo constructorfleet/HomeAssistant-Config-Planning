@@ -33,4 +33,5 @@ wunderlist: !include wunderlist.yaml
 # TODO: Package tracking sensors
 
 mqtt: !include mqtt.yaml
-mqtteventstream: !include eventstream.yaml
+# mqtteventstream: !include eventstream.yaml
+mqtt_remoteinstance: !include mqtt_remoteinstance.yaml
