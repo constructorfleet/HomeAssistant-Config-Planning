@@ -21,7 +21,7 @@ homeassistant:
 #     - wunderlist
 
 http:
-#  base_url: https://automation.prettybaked.com
+  base_url: http://planning.constructorfleet.iot:3000
 #  server_port: !secret planning_server_public_port
   
 frontend:
