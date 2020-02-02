@@ -21,8 +21,6 @@ homeassistant:
 #     - wunderlist
 
 http:
-  base_url: http://planning.constructorfleet.iot
-#  server_port: !secret planning_server_public_port
   
 frontend:
 
