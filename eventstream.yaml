@@ -1,4 +1,4 @@
-name: zwave
+name: planning
 publish_topic: events/slaves/planning
 subscribe_topic: events/master
 ignore_event:
