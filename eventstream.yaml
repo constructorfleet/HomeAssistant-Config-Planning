@@ -1,7 +1,6 @@
 name: planning
 publish_topic: events/slaves/planning
 subscribe_topic: events/master
-state_topic: states
 ignore_event:
   - call_service
   - component_loaded
