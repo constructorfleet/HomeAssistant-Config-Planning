@@ -21,7 +21,7 @@ homeassistant:
 #     - wunderlist
 
 http:
-  base_url: http://planning.constructorfleet.iot
+  base_url: https://planning.automation.home.prettybaked.com
   
 frontend:
 
