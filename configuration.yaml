@@ -14,11 +14,7 @@ homeassistant:
       allow_bypass_login: true
     - type: homeassistant
 
-# view_event:
-#   name: planning
-#   components:
-#     - calendar
-#     - wunderlist
+view_event: !include view_event.yaml
 
 http:
   base_url: https://planning.automation.home.prettybaked.com
@@ -33,4 +29,3 @@ wunderlist: !include wunderlist.yaml
 
 mqtt: !include mqtt.yaml
 mqtteventstream: !include eventstream.yaml
-# mqtt_remoteinstance: !include mqtt_remoteinstance.yaml
